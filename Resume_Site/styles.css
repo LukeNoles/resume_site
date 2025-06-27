@@ -199,9 +199,9 @@ h1 span {
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 30px;
-    padding-top: 90px;
+    padding-top: 100px;
     background-color: var(--secondary-color);
-    height: auto;
+    height: 100vh;
 }
 
 .resume_right {
@@ -432,6 +432,8 @@ h1 span {
         padding-left: 10px;
         padding-right: 10px;
         align-items: center;
+        padding-top: 50px;
+        height: auto;
     }
 
     .resume_right {
