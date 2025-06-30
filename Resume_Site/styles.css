@@ -5,7 +5,7 @@
     --secondary-color: #f6fcf8;
     --light-brown: #d7c8b0;
     --light-green: #c0cab1;
-    --lighter-green: #d4e0c3;
+    --lighter-green: #d4dac5;
     --green: #8f9f8f;
     --font-main: 'Roboto', sans-serif;
   }
@@ -100,6 +100,15 @@ h1 span {
 .header li {
     margin-right: 30px;
     letter-spacing: 1px;
+}
+
+.header a {
+    transition: 0.3s ease;
+}
+
+.header a:hover {
+    letter-spacing: 2px;
+    color: var(--primary-color);
 }
 
 .content {
