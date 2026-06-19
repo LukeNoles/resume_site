@@ -229,7 +229,7 @@ h1 span {
 .resume {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: stretch;
     height: auto;
 }
 
@@ -239,11 +239,14 @@ h1 span {
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 30px;
-    margin-bottom: 80px;
     padding-top: 100px;
-    background-color: var(--secondary-color);
-    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url(images/pawel-czerwinski-M40QnK-PXkI-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
 }
+
 
 .resume_right {
     display: flex;
@@ -254,6 +257,7 @@ h1 span {
     padding-top: 80px;
     background-color: var(--lighter-green);
     height: auto;
+    width: 100%;
 }
 
 .resume_right h2 {
@@ -360,6 +364,7 @@ h1 span {
     align-items: center;
     flex-direction: column;
     width: 60%;
+    padding-top: 40px;
 }
 
 .contact h1 {
