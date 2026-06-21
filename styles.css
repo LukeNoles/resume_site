@@ -386,6 +386,10 @@ h1 span {
     color: var(--primary-color);
 }
 
+.contact_info p {
+        font-size: 18px;
+}
+
 .foot {
     bottom: 0;
     position: absolute;
@@ -393,6 +397,12 @@ h1 span {
     width: 100%;
     background-color: var(--primary-color);
     z-index: 100;
+}
+
+@media(max-width: 1200px) {
+    .background-video{
+        left: 80px;
+    }
 }
 
 @media(max-width: 900px) {
