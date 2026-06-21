@@ -387,7 +387,9 @@ h1 span {
 }
 
 .contact_info p {
-        font-size: 18px;
+    font-size: 18px;
+    max-width: 50%;
+    text-align: center;
 }
 
 .foot {
